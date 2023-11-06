@@ -30,4 +30,4 @@
 
 - **Post-processing Stack**: La API relacionada con el post-procesamiento permite aplicar efectos de post-procesamiento, como corrección de color, desenfoque y efectos de iluminación, para mejorar la calidad visual de tus escenas.
 
--**Volumentric Lighting**: Se trata de una herramienta para configurar y ajustr efectos de ilumincación volumétrica, lo que permite simular efectos realistas de luz que se dispersa a través de medios como el humo, la niebla o el polvo. 
+- **Volumentric Lighting**: Se trata de una herramienta para configurar y ajustr efectos de ilumincación volumétrica, lo que permite simular efectos realistas de luz que se dispersa a través de medios como el humo, la niebla o el polvo. 
