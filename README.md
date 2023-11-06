@@ -20,7 +20,7 @@
 
 - **RenderSettings**: La clase `RenderSettings` permite controlar la configuración global de la iluminación en la escena. Se puede establecer el ambiente y el color de fondo, así como configurar el sistema de iluminación en tiempo real y la iluminación global.
 
-- **Light Probes**: Se puede utilizar `LightProbes` para definir volúmenes de sondas de luz en la escena, lo que te permite mejorar la iluminación de objetos en tiempo real y reflejar la iluminación en objetos estáticos.
+- **Light Probes**: Se puede utilizar `LightProbes` para definir volúmenes de sondas de luz en la escena, lo que te permite mejorar la iluminación de objetos en tiempo real y reflejar la iluminación en objetos estáticos, logrando una mayor coherencia en la escena.
 
 - **Reflection Probes**: Con las clases `ReflectionProbe` y `ReflectionProbeUsage`, se puede configurar y controlar las sondas de reflexión para capturar y aplicar reflexiones en tiempo real en objetos y superficies.
 
@@ -29,3 +29,5 @@
 - **Shadows**: Se puede controlar la generación y la calidad de las sombras arrojadas por las luces utilizando la API de sombras, que incluye propiedades como la distancia de sombra, la resolución y el mapeo de sombras.
 
 - **Post-processing Stack**: La API relacionada con el post-procesamiento permite aplicar efectos de post-procesamiento, como corrección de color, desenfoque y efectos de iluminación, para mejorar la calidad visual de tus escenas.
+
+-**Volumentric Lighting**: Se trata de una herramienta para configurar y ajustr efectos de ilumincación volumétrica, lo que permite simular efectos realistas de luz que se dispersa a través de medios como el humo, la niebla o el polvo. 
