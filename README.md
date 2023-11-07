@@ -10,6 +10,15 @@
 
 ### 1. Investiga sobre los modelo de iluminación que aplica Unity y resume las relaciones existentes con el modelo explicado en clase.
 
+-Iluminación ambiental:
+Para la iluminación ambiental en Unity, no se utilizan luces directas. En cambio, se configura la iluminación ambiental mediante el componente "Skybox" y el entorno de la escena. El "Skybox" envuelve la escena con una textura que proporciona una apariencia general de iluminación ambiental. 
+
+-Iluminación difusa:
+La iluminación difusa en Unity se logra principalmente utilizando luces como "Point Lights" y "Spot Lights". Estas luces emiten luz en todas direcciones desde un punto o en una dirección específica y afectan a los objetos en la escena.
+
+-Iluminación especular:
+Para lograr la iluminación especular en Unity, también se utilizan luces como "Point Lights" y "Spot Lights". Además, se pueden emplear cubemaps para simular la reflexión especular en objetos. La configuración de la intensidad de las luces, junto con los mapas de reflexión especular en los materiales de los objetos, permite reflejar la luz de manera más intensa en áreas específicas y direcciones, creando así efectos de brillo y reflejos en las superficies.
+
 ### 2. Indica las funciones de la API de Unity más importantes respecto a la iluminación.
 
 - **Light**: La clase `Light` es fundamental en la iluminación de Unity. Se puede utilizar para crear fuentes de luz, como luces direccional, puntual, de punto y área.
