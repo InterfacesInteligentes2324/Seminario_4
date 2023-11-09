@@ -10,6 +10,15 @@
 
 ### 1. Investiga sobre los modelo de iluminación que aplica Unity y resume las relaciones existentes con el modelo explicado en clase.
 
+-Iluminación Local
+Es el cálculo simple de la luz que afecta directamente a un objeto desde fuentes de luz específicas, sin tener en cuenta la luz que se refleja de otros objetos. Se centra en la luz directa y las sombras que esta crea.
+
+-Iluminación Global
+Este modelo tiene en cuenta no solo la luz directa de las fuentes de luz, sino también cómo esa luz se refleja y difunde a través de las superficies de toda la escena, aportando más realismo debido a la inclusión de luz indirecta.
+
+-Radiosidad
+Es un método para simular la iluminación global que se enfoca en cómo la luz se dispersa y refleja de manera uniforme en las superficies, considerando la interacción detallada entre la luz y los objetos, lo cual es computacionalmente intensivo y generalmente se precalcula.
+
 -Iluminación ambiental:
 Para la iluminación ambiental en Unity, no se utilizan luces directas. En cambio, se configura la iluminación ambiental mediante el componente "Skybox" y el entorno de la escena. El "Skybox" envuelve la escena con una textura que proporciona una apariencia general de iluminación ambiental. 
 
