@@ -10,22 +10,22 @@
 
 ### 1. Investiga sobre los modelo de iluminación que aplica Unity y resume las relaciones existentes con el modelo explicado en clase.
 
--Iluminación Local
+- **Iluminación Local**:
 Es el cálculo simple de la luz que afecta directamente a un objeto desde fuentes de luz específicas, sin tener en cuenta la luz que se refleja de otros objetos. Se centra en la luz directa y las sombras que esta crea.
 
--Iluminación Global
+- **Iluminación Global**:
 Este modelo tiene en cuenta no solo la luz directa de las fuentes de luz, sino también cómo esa luz se refleja y difunde a través de las superficies de toda la escena, aportando más realismo debido a la inclusión de luz indirecta.
 
--Radiosidad
+- **Radiosidad**:
 Es un método para simular la iluminación global que se enfoca en cómo la luz se dispersa y refleja de manera uniforme en las superficies, considerando la interacción detallada entre la luz y los objetos, lo cual es computacionalmente intensivo y generalmente se precalcula.
 
--Iluminación ambiental:
+- **Iluminación ambiental**:
 Para la iluminación ambiental en Unity, no se utilizan luces directas. En cambio, se configura la iluminación ambiental mediante el componente "Skybox" y el entorno de la escena. El "Skybox" envuelve la escena con una textura que proporciona una apariencia general de iluminación ambiental. 
 
--Iluminación difusa:
+- **Iluminación difusa**:
 La iluminación difusa en Unity se logra principalmente utilizando luces como "Point Lights" y "Spot Lights". Estas luces emiten luz en todas direcciones desde un punto o en una dirección específica y afectan a los objetos en la escena.
 
--Iluminación especular:
+- **Iluminación especular**:
 Para lograr la iluminación especular en Unity, también se utilizan luces como "Point Lights" y "Spot Lights". Además, se pueden emplear cubemaps para simular la reflexión especular en objetos. La configuración de la intensidad de las luces, junto con los mapas de reflexión especular en los materiales de los objetos, permite reflejar la luz de manera más intensa en áreas específicas y direcciones, creando así efectos de brillo y reflejos en las superficies.
 
 ### 2. Indica las funciones de la API de Unity más importantes respecto a la iluminación.
